@@ -1,0 +1,52 @@
+/* Global App Styles */
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Remove default button styling */
+button {
+  font-family: inherit;
+}
+
+/* Remove default form styling */
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+/* Selection styling */
+::selection {
+  background-color: rgba(101, 55, 32, 0.3);
+  color: #f5f1e8;
+}
+
+::-moz-selection {
+  background-color: rgba(101, 55, 32, 0.3);
+  color: #f5f1e8;
+}
