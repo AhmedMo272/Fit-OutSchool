@@ -8,12 +8,16 @@ import "swiper/css/autoplay";
 
 export default function Carousel() {
   const images = [
-    "/images/img1.JPG",
-    "/images/img2.JPG",
-    "/images/img3.JPG",
-    "/images/img4.JPG",
-    "/images/img5.JPG",
-    "/images/img6.JPG",
+    "/images/Carousel/1.jpeg",
+    "/images/Carousel/2.jpeg",
+    "/images/Carousel/3.jpeg",
+    "/images/Carousel/4.jpeg",
+    "/images/Carousel/5.jpeg",
+    "/images/Carousel/6.jpeg",
+    "/images/Carousel/7.jpeg",
+    "/images/Carousel/8.jpeg",
+    "/images/Carousel/9.JPG",
+    "/images/Carousel/10.JPG",
   ];
 
   return (

@@ -3,6 +3,8 @@ import { tokens } from "../../design-system/tokens";
 
 export default function Sponsors() {
   const brands = [
+    { name: "Sani Pure", src: "/brands/Sanipure White Logo.png" },
+    { name: "Hidec", src: "/brands/Hidec-white.png" },
     { name: "Alora", src: "/brands/Alora.webp" },
     { name: "Mazloom", src: "/brands/Mazloom2.png" },
     { name: "Opindoo", src: "/brands/opindoo.svg" },

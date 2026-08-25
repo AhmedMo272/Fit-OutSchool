@@ -68,7 +68,7 @@ export default function CTA() {
       setTimeout(() => {
         const msg = `Hi, I applied to Fit-Out School 👷‍♂️`;
         window.open(
-          `https://wa.me/201091616915?text=${encodeURIComponent(msg)}`,
+          `https://wa.me/201039820028?text=${encodeURIComponent(msg)}`,
         );
       }, 1500);
 
@@ -219,7 +219,8 @@ export default function CTA() {
               fontFamily: tokens.fonts.body,
             }}
           >
-            Only 100 seats. Real site experience. Real pressure. Real growth.
+            Only 200 seats this round. Real site experience. Real pressure. Real
+            growth.
           </p>
 
           {/* Payment Info Box */}
@@ -232,7 +233,7 @@ export default function CTA() {
               borderRadius: tokens.radius.lg,
               padding: "24px",
               backdropFilter: "blur(20px)",
-              maxWidth: isMobile ? "100%" : "350px",
+              maxWidth: isMobile ? "100%" : "380px",
               marginBottom: "20px",
             }}
           >
@@ -279,19 +280,42 @@ export default function CTA() {
                   letterSpacing: "0.05em",
                 }}
               >
-                InstaPay
+                Bank Transfer
               </p>
-              <p
-                style={{
-                  fontSize: "1.3rem",
-                  fontWeight: "bold",
-                  color: tokens.colors.text,
-                  margin: 0,
-                  fontFamily: tokens.fonts.body,
-                }}
+              <div
+                style={{ display: "flex", flexDirection: "column", gap: "6px" }}
               >
-                01091616915
-              </p>
+                <p
+                  style={{
+                    fontSize: "0.95rem",
+                    color: tokens.colors.text,
+                    margin: 0,
+                    fontFamily: tokens.fonts.body,
+                    fontWeight: 700,
+                  }}
+                >
+                  Alex Bank
+                </p>
+                <p
+                  style={{
+                    fontSize: "0.95rem",
+                    color: tokens.colors.muted,
+                    margin: 0,
+                  }}
+                >
+                  Account Name: Fit-Out School
+                </p>
+                <p
+                  style={{
+                    fontSize: "0.95rem",
+                    color: tokens.colors.muted,
+                    margin: 0,
+                    fontWeight: 700,
+                  }}
+                >
+                  Account Number: 207107512001
+                </p>
+              </div>
             </div>
 
             <p

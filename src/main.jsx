@@ -6,11 +6,13 @@ import Home from "./app/pages/Home";
 import Login from "./app/pages/Login";
 import Dashboard from "./app/pages/Dashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
+import MetaPixel from "./lib/metaPixel";
 
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
+    <MetaPixel />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/login" element={<Login />} />

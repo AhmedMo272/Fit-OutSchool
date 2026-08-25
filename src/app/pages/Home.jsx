@@ -49,7 +49,7 @@ export default function Home() {
 
       {/* 🚨 FINAL PUSH */}
       <Scene
-        title="Only 100 seats."
+        title="Only 200 seats."
         subtitle="No second chances."
         image="/images/scene7.png"
       />

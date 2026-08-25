@@ -119,7 +119,7 @@ export default function Footer() {
               }}
             >
               <SocialIcon
-                href="https://www.instagram.com/fitoutschool/"
+                href="https://www.instagram.com/fit.outschool/"
                 icon={<FaInstagram />}
                 label="Instagram"
               />
@@ -134,7 +134,7 @@ export default function Footer() {
                 label="LinkedIn"
               />
               <SocialIcon
-                href="https://wa.me/201091616915"
+                href="https://wa.me/201039820028?text=Hi%20Fit-Out%20School%2C%20I%20have%20a%20question%20about%20your%20programs."
                 icon={<FaWhatsapp />}
                 label="WhatsApp"
               />
@@ -196,8 +196,8 @@ export default function Footer() {
               <ContactItem
                 icon="📞"
                 label="Phone"
-                value="+20 109 161 6915"
-                href="tel:+201091616915"
+                value="+20 103 982 0028"
+                href="tel:+201039820028"
               />
               <ContactItem
                 icon="✉"
